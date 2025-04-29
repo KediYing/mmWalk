@@ -5,15 +5,20 @@ This repository contains the completed QA data Annotation classified according t
 
 If YOU want to run code, make sure YOU have downloaded our QAFrames.zip in our dataset. The directory should look like:
 ---Workspace
+
   |--QAFrames
+  
     |-Busstop01
     |....
   |--test_data_chat
+  
     |-E1.jsonl
     ...
     |-H2.jsonl
   inference_lmdeploy.py
+  
   inference_transformer.py
+  
   eval_gpt.py
 
 After running inference and evaluation, the directory should look like:
