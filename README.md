@@ -1,5 +1,6 @@
 # mmWalk: Towards Inclusive Multimodal Walking Embodied AI
 Code Submission
+
 This repository contents the completed QA data Annotation classified according to QA Type, the model inference code, the model evaluation code, and some of the inference results with evaluation outcomes.
 
 test_data_chat: Folder contains 9 JSONL Annotation, for all QA Types in 9 categories in test split.
