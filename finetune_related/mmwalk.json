@@ -1,0 +1,9 @@
+{
+    "mmwalk": {
+      "root": "./pretrained/data/QAFrames/",
+      "annotation": "./pretrained/data/QAFrames/mmWalkQA_Annotation_for_Internvl2.jsonl",
+      "data_augment": false,
+      "repeat_time": 1,
+      "length": 69390
+    }
+  }
