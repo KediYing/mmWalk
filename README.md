@@ -7,7 +7,9 @@ This repository contains:
 - ✅ Fully annotated QA data, classified by QA type  
 - ✅ Inference code for multiple models  
 - ✅ Evaluation code using GPT  
-- ✅ Sample inference and evaluation results  
+- ✅ Sample inference and evaluation results
+- ✅ Finetune scripts and finetune required json files
+
 
 ---
 
@@ -152,8 +154,14 @@ python eval_gpt.py
 ```
 
 The evaluation summary will be printed to the terminal.
+---
+
+### `finetune_related/`
+
+This folder contains a InternVL2-8B-InternLM2.5-7B finetune script, along with the finetune required dataset metadata json and train split annotation in InternVL2 format. To run the finetune phase, YOU should follow the instruction on InternVL Official Website for finetuning InternVL2-8B by replacing the requied files and scripts in finetune_related folder.
 
 ---
+
 
 ## Citation
 
