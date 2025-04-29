@@ -1,6 +1,6 @@
 # mmWalk: Towards Inclusive Multimodal Walking Embodied AI
 
-## 📦 Code Submission
+## Code Submission
 
 This repository contains:
 
@@ -11,9 +11,9 @@ This repository contains:
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
-> ⚠️ Before running any code, **make sure you have downloaded `QAFrames.zip`** and extracted it into your `Workspace/` directory.
+> Before running any code, **make sure you have downloaded `QAFrames.zip`** and extracted it into your `Workspace/` directory.
 
 ### After extracting the dataset:
 
@@ -61,7 +61,7 @@ This repository contains:
 
 ---
 
-## 🗂️ Dataset Details
+##  Dataset Details
 
 ### `test_data_chat/`
 
@@ -69,7 +69,7 @@ This folder contains 9 `.jsonl` files, each corresponding to a QA type category 
 
 ---
 
-## 📂 Evaluation Output Format
+## Evaluation Output Format
 
 ### `eval_MODELNAME_INPUTSETTING_SHOTSETTING/`
 
@@ -95,11 +95,11 @@ Each folder contains:
 `eval_Qwen2_normal_3s` means:
 > Results from Qwen2-7B-Instruct using full multiview input and 3-shot setting.
 
-📝 For more details, please refer to our paper.
+For more details, please refer to our paper.
 
 ---
 
-## 🚀 Inference Scripts
+##  Inference Scripts
 
 ### `inference_lmdeploy.py`
 
@@ -110,7 +110,7 @@ Model deployment using `lmdeploy`, including our **finetuned model**:
 mmWalkQA_finetuned_internvl2_8b_internlm2_7b_dynamic_res_2nd_merge
 ```
 
-🔗 Download link: *(To be added)*
+Google Drive Download link: *(To be added)*
 
 **Usage:**
 
@@ -129,11 +129,11 @@ python inference_lmdeploy.py -testall
 Deployment via HuggingFace `transformers`.  
 Usage is identical to `inference_lmdeploy.py`.
 
-💬 Check code comments for details.
+Check code comments for details.
 
 ---
 
-## 📊 Evaluation Script
+## Evaluation Script
 
 ### `eval_gpt.py`
 
@@ -151,14 +151,13 @@ This script runs GPT-based evaluation and produces:
 python eval_gpt.py
 ```
 
-📌 The evaluation summary will be printed to the terminal.
+The evaluation summary will be printed to the terminal.
 
 ---
 
-## 📬 Citation
+## Citation
 
 > Coming soon — please refer to our paper for citation details.
 
 ---
 
-Feel free to open an issue or pull request if you encounter any problems.
