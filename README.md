@@ -2,6 +2,38 @@
 Code Submission
 
 This repository contains the completed QA data Annotation classified according to QA Type, the model inference code, the model evaluation code, and some of the inference results with evaluation outcomes.
+
+If YOU want to run code, make sure YOU have downloaded our QAFrames.zip in our dataset. The directory should look like:
+---Workspace
+  |--QAFrames
+    |-Busstop01
+    |....
+  |--test_data_chat
+    |-E1.jsonl
+    ...
+    |-H2.jsonl
+  inference_lmdeploy.py
+  inference_transformer.py
+  eval_gpt.py
+
+After running inference and evaluation, the directory should look like:
+---Workspace
+  |--QAFrames
+    |-Busstop01
+    |....
+  |--test_data_chat
+    |-E1.jsonl
+    ...
+    |-H2.jsonl
+  inference_lmdeploy.py
+  inference_transformer.py
+  eval_gpt.py
+  |--INFERENCE_OUTPUT_FOLDER
+    |-E1.jsonl
+    ...
+    |-H2.jsonl
+  gpt_scored_samples.json
+  gpt_evaluation_summary.json
 ___________________________________________________________________________________________________________
 test_data_chat: Folder contains 9 JSONL Annotation, for all QA Types in 9 categories in test split.
 ___________________________________________________________________________________________________________
