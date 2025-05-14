@@ -1,4 +1,4 @@
-# mmWalk: Towards Inclusive Multimodal Walking Embodied AI
+# mmWalk: Towards Multi-modal Multi-view Walking Assistance
 
 ## Code Submission
 
