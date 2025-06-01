@@ -15,6 +15,8 @@ This repository contains:
 
 ## Directory Structure
 
+Dataset can be downloaded from https://doi.org/10.7910/DVN/KKDXDK. 
+
 > Before running any code, **make sure you have downloaded `QAFrames.zip`** and extracted it into your `Workspace/` directory.
 
 ### After extracting the dataset:
