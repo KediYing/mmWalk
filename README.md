@@ -1,4 +1,5 @@
 # mmWalk: Towards Multi-modal Multi-view Walking Assistance
+Accepted by NeurIPS 2025 D&B Track
 
 ## Code Submission
 
