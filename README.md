@@ -167,7 +167,14 @@ This folder contains a InternVL2-8B-InternLM2.5-7B finetune script, along with t
 
 ## Citation
 
-> Coming soon — please refer to our paper for citation details.
+```
+@article{ying2025mmwalk,
+  title={mmWalk: Towards Multi-modal Multi-view Walking Assistance},
+  author={Ying, Kedi and Liu, Ruiping and Chen, Chongyan and Tao, Mingzhe and Shi, Hao and Yang, Kailun and Zhang, Jiaming and Stiefelhagen, Rainer},
+  journal={arXiv preprint arXiv:2510.11520},
+  year={2025}
+}
+```
 
 ---
 
