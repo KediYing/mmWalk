@@ -5,12 +5,35 @@ Accepted by NeurIPS 2025 D&B Track
 
 This repository contains:
 
-- ✅ Fully annotated QA data, classified by QA type  
-- ✅ Inference code for multiple models  
-- ✅ Evaluation code using GPT  
+- ✅ Fully annotated QA data, classified by QA type
+- ✅ Inference code for multiple models
+- ✅ Evaluation code using GPT
 - ✅ Sample inference and evaluation results
 - ✅ Finetune scripts and finetune required json files
+- ✅ **NEW**: Complete setup guides and automated scripts (Korean/English)
 
+## 🚀 Quick Start
+
+### For Korean Users (한국어 사용자)
+빠른 시작을 원하시면 **[QUICKSTART_KR.md](QUICKSTART_KR.md)**를 참조하세요!
+
+자세한 설정 가이드는 **[SETUP_GUIDE_KR.md](SETUP_GUIDE_KR.md)**를 확인하세요.
+
+### Automated Setup
+```bash
+# Clone this repository
+git clone https://github.com/YOUR_USERNAME/mmWalk.git
+cd mmWalk
+
+# Run automated setup
+bash setup_environment.sh
+
+# Verify environment
+python check_environment.py
+
+# Start finetuning
+bash finetune_mmwalk.sh
+```
 
 ---
 
@@ -159,9 +182,38 @@ python eval_gpt.py
 The evaluation summary will be printed to the terminal.
 ---
 
+## Finetuning
+
+### Quick Finetuning Guide
+
+This repository now includes complete finetuning setup scripts:
+
+1. **Automated Setup**: `bash setup_environment.sh`
+2. **Environment Check**: `python check_environment.py`
+3. **Start Training**: `bash finetune_mmwalk.sh`
+
+### Configuration Files
+
+- `finetune_mmwalk.sh`: Main finetuning script
+- `zero_stage1_config.json`: DeepSpeed configuration
+- `finetune_related/mmwalk.json`: Dataset metadata
+- `finetune_related/internvl2_8b_internlm2_7b_dynamic_res_2nd_finetune_lora.sh`: Original script
+
+### Requirements
+
+- **GPU**: NVIDIA GPU with 24GB+ VRAM (2 GPUs recommended)
+- **Python**: 3.8-3.10
+- **CUDA**: 11.7+
+- **Disk Space**: 100GB+
+
+### Detailed Documentation
+
+- **[QUICKSTART_KR.md](QUICKSTART_KR.md)**: Quick start guide (Korean)
+- **[SETUP_GUIDE_KR.md](SETUP_GUIDE_KR.md)**: Complete setup guide (Korean)
+
 ### `finetune_related/`
 
-This folder contains a InternVL2-8B-InternLM2.5-7B finetune script, along with the finetune required dataset metadata json and train split annotation in InternVL2 format. To run the finetune phase, YOU should follow the instruction on InternVL Official Website for finetuning InternVL2-8B by replacing the requied files and scripts in finetune_related folder.
+This folder contains the original InternVL2-8B-InternLM2.5-7B finetune script, along with the finetune required dataset metadata json and train split annotation in InternVL2 format.
 
 ---
 
